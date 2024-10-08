@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Age Calculator</h1>
+        </div>
+        <div class="input">
+            <div class="input_head">
+                <h2>Enter Your Date of Birth</h2>
+            </div>
+            <div class="input_data">
+                <label for="date">Date<input type="text" id="date" placeholder="Enter Date"></label>
+                <label for="date">Month<input type="text" id="month" placeholder="Enter Month"></label>
+                <label for="date">Year<input type="text" id="year" placeholder="Enter Year"></label>
+            </div>
+            <div class="input_button">
+                <button onclick="ageCal()">Submit Data</button>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target_head">
+                <h2>User Current Age</h2>
+            </div>
+            <div id="main_target" class="main_target">
+                <!-- <h3>8 Days 3 Months and 25 Years</h3> -->
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
